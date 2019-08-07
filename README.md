@@ -2,6 +2,7 @@
 ### – Stock Market Prediction Model:
 This part of project represents stock trading by using supervised Machine Learning with SVM (Support Vector Machine) approach in Python.  In order to create model, I gather one-year historical data of the ticker 'GE' as a sample data and fit to linear and Radial Basis Functions (RBF) regression models for predicting future values. Then train SVC classifier algorithm with the regime to predict the current day’s trend at the opening of the market. And finally visualize the performance of this strategy on the test data.
 For implement this program we need following necessary package and libraries to import:                                                      Time, csv, numpy, matplotlib.pyplot, and from sklearn.svm import SVR
+![alt tag](https://github.com/frednorouzi/Python_Code/master/Capture_Result_Project1.JPG)
 
 ## Summary of Part Two 
 ### – GUI Programing of Connect Four Game:
