@@ -2,6 +2,7 @@
 ### – Stock Market Prediction Model:
 This part of project represents stock trading by using supervised Machine Learning with SVM (Support Vector Machine) approach in Python.  In order to create model, I gather one-year historical data of the ticker 'GE' as a sample data and fit to linear and Radial Basis Functions (RBF) regression models for predicting future values. Then train SVC classifier algorithm with the regime to predict the current day’s trend at the opening of the market. And finally visualize the performance of this strategy on the test data.
 For implement this program we need following necessary package and libraries to import:                                                      Time, csv, numpy, matplotlib.pyplot, and from sklearn.svm import SVR
+
 ![Capture_Result_Project1](https://user-images.githubusercontent.com/35445151/62629311-c4c66700-b8e1-11e9-9fba-f72062952fc6.JPG)
 
 
@@ -18,4 +19,6 @@ Reset: This method resets everything so play can begin again.
 checkRows: Checks for four-in-a-row. Returns a list of [row, column] lists if there are four-in-a-row. Otherwise, it returns the empty list.
 checkColumns: Checks for four-in-a-column. Returns a list of [row, column] lists if there are four-in-a-column. Otherwise, it returns the empty list.
 checkDiagonals: Checks for four-in-a-diagonal.  There are two types of diagonals, so it checks them individually. Returns a list of [row, column] lists if there are four-in-a-diagonal. Otherwise, it returns the empty list.
+
+![Capture_Result_Project2](https://user-images.githubusercontent.com/35445151/62629503-1969e200-b8e2-11e9-9c02-eb6eb0808095.JPG)
 
